@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "SDK";
+}
+
+<h3>Enter new resolution</h3>
+<div style="width:100%">
+    <label>Issue Description</label>
+    <br />
+    <input type="text" id="issue" style="max-width:100%" />
+    <br />
+    <label>Resolution</label>
+    <br />
+    <input type="text" id="resolution" style="max-width:100%" /><br />
+    <input type="submit" value="Submit" style="background-color: #e23e2ed1">
+    <br />
+    <br />
+    <br />
+    <input type="text" name="search" placeholder="Search.." style="max-width:70%"><br />
+    <input type="submit" value="Submit" style="background-color: #e23e2ed1">
+
+</div>
+<script>
+    $(document).ready(function () {
+        $(".w3-bar-block a").removeClass("w3-blue");
+        $(".w3-bar-block a:nth-child(7)").addClass("w3-blue");
+    });
+</script>
